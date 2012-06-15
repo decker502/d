@@ -1,0 +1,29 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
+html body div {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	border-image: initial;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+body {
+	padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+a {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: underline;
+}
